@@ -40,6 +40,16 @@ poetry add `cat requirements.txt`
 
 #### 3. Running the server
 
+Add the following scripts to `pyproject.toml`
+
+```t
+[tool.poetry.scripts]
+dev = "api.main:dev"
+serve = "api.main:start"
+```
+
+Run the server
+
 ```sh
 poetry run dev
 ```
