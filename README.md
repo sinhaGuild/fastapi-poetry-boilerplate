@@ -6,7 +6,7 @@ This is an opinionated boilerplate to help bootstrap complex, large scale ML end
 
 ### Features
 
-- `fastapi.Router` External Routing pattern `src/api/routes`
+- `fastapi.APIRouter` External Routing pattern `src/api/routes`
 - `Poetry` for dependency management
 - `Poetry run dev` development and build scripts
 - `Pydantic` for data modelling
@@ -29,7 +29,7 @@ Roadmap:
 #### 1. Clone
 
 ```zsh
-git clone ... <project_name> && cd <project_name>
+git clone https://github.com/sinhaGuild/fastapi-poetry-boilerplate.git && cd fastapi-poetry-boilerplate
 ```
 
 #### 2. Installing dependencies
