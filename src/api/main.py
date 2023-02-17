@@ -1,5 +1,5 @@
 from fastapi import FastAPI, Request
-from .routers import books
+from api.routers import books
 import uvicorn
 from fastapi.responses import HTMLResponse
 from fastapi.staticfiles import StaticFiles
@@ -60,3 +60,6 @@ def start():
         port=80, 
         reload=False
     )
+
+if __name__ == "__main__":
+    start()
